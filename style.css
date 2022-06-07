@@ -1,0 +1,27 @@
+
+div {;
+    color: teal;
+    padding: 16px;
+    border: 2px solid;
+    margin:26px;
+}
+.css{
+    color:teal;
+    background-color: coral;
+}
+#username{
+    font-size: 30px;
+    color:green;
+}
+
+
+img{
+    border-radius: 5%;
+    ;
+}
+.kitten {
+    border-color: black;
+}
+a {
+    font-size: small;
+}
