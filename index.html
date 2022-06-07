@@ -8,12 +8,28 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/design-system/2.18.0/styles/salesforce-lightning-design-system.min.css" integrity="sha512-IEWjjVMdPlxcgkrCs5NhqAjGNXodMnZK/BRDf1+Trq8sqshdGwG/4lfBy3/CFr991ZVOZB6guOY51Bz5bX7FhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-  <body>
+  <body class="body">
 
       <br>
       <div class="slds-grid">
-          <div class="kitten slds-align_absolute-center">
+          <div class="kitten slds-align_absolute-center kitten">
               <img src = "http://placekitten.com/g/200/300">  
+            </div>
+            <div class="text-block slds-align_absolute-center">
+              <div class="bg-img ">
+                <img src="./img_avatar2.png" alt="Avatar" class="avatar slds-align_absolute-center">
+                  <form action="/action_page.php" class="container">
+                    <h1 class="slds-align_absolute-center"> Login</h1>
+                
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                    <button type="submit" class="btn">Login</button>
+                  </form>
+                </div>
             </div>
         </div>
         

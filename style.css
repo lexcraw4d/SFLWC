@@ -1,13 +1,25 @@
-
+.body {
+    background-color: cadetblue;
+}
+div {
+    background-color: var(--main-bg-color);
+    
+}
 div {;
-    color: teal;
+    color:teal;
     padding: 16px;
-    border: 2px solid;
     margin:26px;
 }
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
 .css{
-    color:teal;
+    color:whitesmoke;
     background-color: coral;
+    opacity: 80%;
 }
 #username{
     font-size: 30px;
@@ -15,9 +27,17 @@ div {;
 }
 
 
-img{
+img {
     border-radius: 5%;
     ;
+}
+.kitten:hover{
+    opacity: .75;
+    transform: scale(1.1);
+    transition: .5s ease;
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+  
 }
 .kitten {
     border-color: black;
